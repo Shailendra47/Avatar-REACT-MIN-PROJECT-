@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Menustyle{
+  width: 100%;
+  height: 100px;
+  background: #6ab04c;
+  /*background: #536976;
+  background: -webkit-linear-gradient(to right, #292E49, #536976);
+  background: linear-gradient(to right, #292E49, #536976);*/
+  color: white;
+}
+.Menustyle ul{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Menustyle ul li{
+  list-style: none;
+  text-transform: uppercase;
+}
+.Menustyle ul li a{
+  color: white;
+}
